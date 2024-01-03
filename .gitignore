@@ -1,4 +1,7 @@
-"# Ignore files and directories" 
+# Ignore cache files
+*.pyc
+__pycache__/
+
 # Ignore Django migration files
-*/migrations/*.py
-*/migrations/*.pyc
+**/migrations/*.py
+**/migrations/*.pyc
